@@ -10,11 +10,42 @@
   .title {
     display: flex;
     align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 80%;
     color: #fff;
     gap: 10px;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
     .icon {
       color: #fff;
       font-size: 20px;
+      margin-right: 10px;
+    }
+  }
+  .content {
+    color: #fff;
+    padding: 20px 10% 30px;
+    .des {
+      display: flex;
+      margin-bottom: 10px;
+      align-items: center;
+      font-size: 14px;
+      .desTitle {
+        color: #fff;
+        width: 40%;
+      }
+      .desContent {
+        color: #fff;
+        width: 45%;
+        text-align: right;
+        font-weight: 700;
+      }
+      .desUnit {
+        color: #fff;
+        width: 15%;
+        text-align: right;
+      }
     }
   }
 }
